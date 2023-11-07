@@ -1,0 +1,55 @@
+.header__create-icon {
+  background-image: url("../images/create-icon.svg");
+  display: none;
+}
+
+.main__sort-button-active.main__new-sorting-button .icon-sort-new {
+  background-image: url("../images/icon-sort-new-selected.svg");
+}
+
+.main__new-sorting-button .icon-sort-new {
+  background-image: url("../images/icon-sort-new.svg");
+}
+
+.main__sort-button-active.main__old-sorting-button .icon-sort-old {
+  background-image: url("../images/icon-sort-old-selected.svg");
+}
+
+.main__old-sorting-button .icon-sort-old {
+  background-image: url("../images/icon-sort-old.svg");
+}
+
+.icon-date {
+  background-image: url("../images/icon-date.svg");
+}
+
+.icon-time {
+  background-image: url("../images/icon-time.svg");
+}
+
+.icon-close {
+  width: 38px;
+  height: 38px;
+  background-image: url("../images/icon-close.svg");
+} 
+
+.icon-error {
+  background-image: url("../images/icon-error.svg");
+}
+
+.icon-arrow {
+  width: 34px;
+  height: 34px;
+}
+
+.icon-arrow-left {
+  background-image: url("../images/icon-arrow-left.svg");
+}
+
+.icon-arrow-right {
+  background-image: url("../images/icon-arrow-right.svg");
+}
+
+.icon-arrow-up {
+  background-image: url("../images/icon-arrow-up.svg");
+}

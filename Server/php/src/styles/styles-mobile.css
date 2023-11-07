@@ -1,0 +1,129 @@
+@media (max-width: 1023px) {
+
+    main {
+      border-radius: 30px 30px 0px 0px;
+    }
+
+    header {
+      padding: 10px;
+    }
+
+    footer {
+      height: 87px;
+    }
+
+    .header__logo {
+      width: 186px;
+      height: 45px;
+      margin: 5px 0;
+      background-image: url('../images/logo-mobile.svg');
+    }
+
+    .header__create-button {
+      padding: 13px;
+    }
+  
+    .header__create-button span {
+      display: none;
+    }
+
+    .header__create-icon {
+      display: block;
+    }
+
+    .main__top-wrapper {
+      padding: 10px;
+      flex-direction: column;
+    }
+
+    .main__title {
+      margin-top: 18px;
+      font-size: 42px;
+    }
+
+    .main__group-sort-buttons {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px
+    }
+
+    .main__sort-button {
+      padding: 10px 14px;
+    }
+
+    .notes__notes-container {
+      grid-template-columns: 100%;
+    }
+
+    .notes__note-wrapper {
+      margin: 20px;
+      border-radius: 10px;
+      padding: 20px 10px;
+      margin-bottom: 0;
+    }
+
+    .notes__note-title {
+      font-size: 26px;
+      height: 58px;
+    }
+
+    .notes__note-text {
+      margin-top: 20px;
+    }
+
+    .notes__note-date-wrapper {
+      margin-bottom: 30px;
+    }
+    
+    .modal__wrapper {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      border: 0;
+      border-radius: 0;
+      padding: 46px 10px;
+    }
+    
+    .modal__top-inputs_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+      margin-top: 41px;
+    }
+    
+    .modal__textarea-wrapper {
+      margin-top: 20px;
+    }
+     
+    .modal__input-textarea-wrapper textarea  {
+      height: 223px;
+    }
+    
+    .pagin__pagin-wrapper {
+      gap: 28px;
+      overflow-x: scroll;
+    }
+
+    .modal__add-button {
+      padding: 42px 20px;
+      width: 100%;
+    }
+    
+    .up-link {
+      width: 95%;
+      bottom: 35px;
+      margin: 0 10px;
+    }
+    .up-button {      
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 520px) and (max-width: 1023px) { 
+    .up-link {
+      width: 40px;
+      right: 20px;
+    }
+  }
+

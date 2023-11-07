@@ -1,0 +1,45 @@
+@media (min-width: 1920px) {
+    header {
+      padding: 28px;
+    }
+
+    .header__logo {
+      width: 448px;
+      height: 110px;
+      background-image: url('../images/logo-desktop.svg');
+    }
+
+    .main__top-wrapper {
+      padding: 40px;
+    }
+
+    .main__title {
+      font-size: 112px;
+    }
+
+    .notes__notes-container {
+      gap: 39px;
+      grid-template-columns: 32% 32% 32%;
+      margin: 40px;
+    } 
+
+    .notes__note-wrapper {
+      border-radius: 20px;
+      padding: 70px 30px;
+    }
+
+    .notes__note-title {
+      font-size: 42px;
+      height: 84px;
+    }
+
+    .notes__note-text {
+      margin-top: 30px;
+    }
+
+    .up-link {
+      right: 40px;
+      bottom: 35px;
+    }
+
+  }
